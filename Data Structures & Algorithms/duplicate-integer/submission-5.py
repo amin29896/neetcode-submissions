@@ -11,18 +11,4 @@ class Solution:
             else:
                 seen.add(nums[i])
 
-        return(False) 
-                
-        
-        
-        
-        i=1
-        while(i<len(nums)and i>=1):
-            for j in range(0,i):
-                if(nums[j]==nums[i]):
-                    return(True)
-            i=i+1
-        return(False)
-        
-        
-        
+        return(False)       
